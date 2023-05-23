@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control"
+        name=""
+        id="number"
+        placeholder="Nhập mảng"
+      />
+    </div>
+    <button onclick="themSo()" class="btn btn-warning">Thêm Số</button>
+    <div id="result" class="alert-sucess mt-5"></div>
+
+    <div class="bai1">
+      <button type="button" class="btn btn-warning" onclick="tinhTongSoDuong()">
+        Tống số dương
+      </button>
+      <div id="bai1"></div>
+    </div>
+    <br />
+    <div class="bai2">
+      <button type="button" class="btn btn-warning" onclick="demSoDuong()">
+        Đếm số dương
+      </button>
+      <div id="bai2"></div>
+    </div>
+    <br />
+    <div class="bai3">
+      <button type="button" class="btn btn-warning" onclick="timSoNhoNhat()">
+        Tìm số nhỏ nhất
+      </button>
+      <div id="bai3"></div>
+    </div>
+    <br />
+    <div class="bai4">
+      <button
+        type="button"
+        class="btn btn-warning"
+        onclick="timSoDuongNhoNhat()"
+      >
+        Tìm số dương nhỏ nhất
+      </button>
+      <div id="bai4"></div>
+    </div>
+    <br />
+    <div class="bai5">
+      <button
+        type="button"
+        class="btn btn-warning"
+        onclick="timSoChanCuoiCung()"
+      >
+        Tìm số chẵn cuối cùng
+      </button>
+      <div id="bai5"></div>
+    </div>
+    <br />
+    <div class="bai6">
+      <input type="text" placeholder="Nhập số a" id="numbera" />
+      <input type="text" placeholder="Nhập số b" id="numberb" />
+      <button type="button" class="btn btn-warning" onclick="hoanVi()">
+        Đổi vị trí
+      </button>
+      <div id="bai6"></div>
+    </div>
+    <br />
+    <div class="bai7">
+      <button type="button" class="btn btn-warning" onclick="sapXepTangDan()">
+        Sắp xếp mảng tăng dần
+      </button>
+      <div id="bai7"></div>
+    </div>
+    <br />
+    <div class="bai8">
+      <button
+        type="button"
+        class="btn btn-warning"
+        onclick="timSoNguyenToDauTien()"
+      >
+        Tìm số nguyên tố đầu tiên
+      </button>
+    </div>
+    <br />
+
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control"
+        name=""
+        id="inb"
+        placeholder="Nhập mảng"
+      />
+    </div>
+    <button onclick="isTr()" class="btn btn-warning">Thêm Số</button>
+    <div id="ketqua" class="alert-sucess mt-5"></div>
+
+      <div class="bai9">
+        <button type="button" class="btn btn-warning" onclick="demSoNguyen()">
+          Đếm số nguyên
+        </button>
+        <div id="bai9"></div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="bai10">
+      <button type="button" class="btn btn-warning" onclick="soSanh()">
+        So sánh số âm và dương
+      </button>
+      <div id="bai10"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my js -->
+    <script src="./index.js"></script>
+  </body>
+</html>
